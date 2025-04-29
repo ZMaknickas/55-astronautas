@@ -20,3 +20,5 @@ in 2025 04 28
 -git commit -m "Message text"
 -git add . 
 -ls -al (atvaizduoja direktorijoje esancius failus)
+-rm failopavad (pasalina faila)
+-mkdir (sukuria folderi)

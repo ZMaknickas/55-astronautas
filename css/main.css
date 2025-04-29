@@ -1,0 +1,20 @@
+header {
+    display:inline-block;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    background-color: pink;
+}
+
+img {
+    float:left;
+}
+
+nav {
+    float:right;
+    background-color: chocolate;
+    padding: 20px;
+}
+
+mai{
+
+}

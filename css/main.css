@@ -1,20 +1,47 @@
+body {
+    font-family: Arial;
+}
+
 header {
-    display:inline-block;
+    float: left;
     width: 800px;
-    margin-left: calc(50% - 400px);
     background-color: pink;
 }
 
-img {
+header> img {
     float:left;
 }
 
 nav {
     float:right;
-    background-color: chocolate;
-    padding: 20px;
+    background-color:rgba(238, 232, 232, 0.897);
+
 }
 
-mai{
+nav > a { 
+ color: #333;
+ text-decoration: none;
+ margin-left: 40px;
+}
+a:first-child {
+    margin: 0;
+}
+a:first-child(2) {
+    margin: 0;
+}
 
+main{
+ float:left;
+ width:800px;
+ margin-left: calc(50%-400);
+}
+
+main > div {
+width: 40%;
+float: left;    
+}
+
+main > img {
+width: 60%;
+float: right;
 }

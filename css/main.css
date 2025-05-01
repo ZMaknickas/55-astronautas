@@ -99,27 +99,33 @@ main a:last-child {
 main a:hover {
 background-color: rgb(218, 35, 35);
 text-decoration: underline;
+cursor:crosshair;
 }
 main a:last-child:hover {
-    background-color: rgb(139, 68, 68) ;
+    background-color: rgb(218, 35, 35) ;
     color: rgb(29, 27, 31);
+    cursor:crosshair;
 }    
 
 main > img {
 width: 60%;
-float: right;  cursor:hover(busena)
+float: right;  /*cursor:hover(busena)*/
 }
  
-footer {
-display:flex;
-justify-content: space-between;    
-float: left;
-width: 800px;
-margin-left: calc(50%-400);
 
+footer {
+display: flex;
+justify-content: space-between;
+background-color: lightgrey;
+width: 800px;
 }
 
-footer > div{
-
-margin: 0;    
+footer > div {
+display: flex;
+gap:10px;
+align-items:center;
+align-content:space-between;
+}
+footer p {
+margin: 0;
 }

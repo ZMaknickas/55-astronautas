@@ -97,11 +97,11 @@ main a:last-child {
 }
 
 main a:hover {
-background-color: rgb(255, 74, 74);
+background-color: rgb(89, 88, 150);
 text-decoration: underline;
 }
 main a:last-child:hover {
-    background-color: rgb(235, 76, 76) ;
+    background-color: rgb(89, 88, 150) ;
     color: rgb(29, 27, 31);
 }    
 
@@ -116,9 +116,12 @@ justify-content: space-between;
 float: left;
 width: 800px;
 }
+.socials {
+}
+.socials > .icon {
+text-decoration:none;
 
-.socials > .fa {
-background-color: red;
+background-color: rgb(36, 33, 33)(15, 13, 13);
 font-size: 20px;    
 }
 
